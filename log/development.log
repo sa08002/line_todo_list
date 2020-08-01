@@ -103,3 +103,364 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 11ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 4214)
 
 
+Started GET "/tasks" for 127.0.0.1 at 2020-08-01 12:15:06 +0900
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (6.0.3.2) lib/active_record/migration.rb:586:in `check_pending!'
+activerecord (6.0.3.2) lib/active_record/migration.rb:564:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (1.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT GET_LOCK('2945098807364787570', 0)[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateTasks (20200801031446)
+  [1m[35m (21.4ms)[0m  [1m[35mCREATE TABLE `tasks` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `body` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (1.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200801031446')[0m
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.7ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT RELEASE_LOCK('2945098807364787570')[0m
+  [1m[35m (1.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/tasks" for 127.0.0.1 at 2020-08-01 12:15:33 +0900
+  [1m[35m (1.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 8.1ms | Allocations: 1535)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/oonishitsuyoshisoku/app/line_todo_list/public/packs
+[Webpacker] Hash: 15d1bb7b54cf6326b9ba
+Version: webpack 4.44.1
+Time: 1623ms
+Built at: 2020/08/01 12:15:37
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-9afcbb5693aa87623e69.js    124 KiB  application  [emitted] [immutable]  application
+js/application-9afcbb5693aa87623e69.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-9afcbb5693aa87623e69.js js/application-9afcbb5693aa87623e69.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3322ms (Views: 3291.7ms | ActiveRecord: 5.8ms | Allocations: 27553)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2020-08-01 12:15:39 +0900
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 20.4ms | Allocations: 4737)
+  Rendered tasks/new.html.erb within layouts/application (Duration: 21.9ms | Allocations: 5093)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 28.2ms | ActiveRecord: 10.4ms | Allocations: 12531)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2020-08-01 12:15:42 +0900
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"pnFodajEjoCgR+4IEGV/IVjwX+oTLuzKaBn1tX2QEAb9JjMS/n+/OxWTUS0f9voYkuPLn8RxCJ9sYz8IKqkOCg==", "task"=>{"body"=>"sdfjramklkf"}, "commit"=>"Create Task"}
+  [1m[35m (2.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:30:in `block in create'
+  [1m[36mTask Create (2.0ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('sdfjramklkf', '2020-08-01 03:15:42.479814', '2020-08-01 03:15:42.479814')[0m
+  ↳ app/controllers/tasks_controller.rb:30:in `block in create'
+  [1m[35m (5.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/tasks/1
+Completed 302 Found in 17ms (ActiveRecord: 10.2ms | Allocations: 3774)
+
+
+Started GET "/tasks/1" for 127.0.0.1 at 2020-08-01 12:15:42 +0900
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (2.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 236)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 14.4ms | ActiveRecord: 2.1ms | Allocations: 6120)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-08-01 12:15:44 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (3.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 845)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 8.3ms | ActiveRecord: 3.6ms | Allocations: 5544)
+
+
+Started GET "/tasks/1" for 127.0.0.1 at 2020-08-01 12:15:46 +0900
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (3.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (Duration: 0.4ms | Allocations: 79)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 7.3ms | ActiveRecord: 3.8ms | Allocations: 5373)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-08-01 12:15:47 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (4.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 831)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 9.0ms | ActiveRecord: 4.0ms | Allocations: 5506)
+
+
+Started DELETE "/tasks/1" for 127.0.0.1 at 2020-08-01 12:15:49 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZyqbdxPwYoPIDaUnnjrMjAxaErP2le9moMOsHZ1SX/qDdCu8jeh3Yq+Cdhhs+QMkrn8tZHMY9FMbI/ZZmjLJLQ==", "id"=>"1"}
+  [1m[36mTask Load (3.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (2.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (2.6ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 1[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 20ms (ActiveRecord: 13.9ms | Allocations: 3818)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-08-01 12:15:49 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 2.4ms | Allocations: 710)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 5.8ms | ActiveRecord: 1.5ms | Allocations: 5415)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-08-01 13:09:48 +0900
+  [1m[35m (1.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 21.0ms | Allocations: 1537)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 48ms (Views: 30.7ms | ActiveRecord: 6.3ms | Allocations: 10646)
+
+
+Started GET "/" for 127.0.0.1 at 2020-08-01 13:09:52 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 723)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 12.1ms | ActiveRecord: 2.9ms | Allocations: 5423)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2020-08-01 13:09:53 +0900
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 16.4ms | Allocations: 2335)
+  Rendered tasks/new.html.erb within layouts/application (Duration: 19.6ms | Allocations: 2691)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 61ms (Views: 38.5ms | ActiveRecord: 6.3ms | Allocations: 10116)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2020-08-01 13:09:56 +0900
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"AT0yyxB7GCIO8CO9FcOg3d6XTXCGktSAvkbVAH7UjmVaammsRsApmbsknJgaUCXkFITZBVHNMNW6PB+9Ke2QaQ==", "task"=>{"body"=>"kpjoijijkl"}, "commit"=>"Create Task"}
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:30:in `block in create'
+  [1m[36mTask Create (3.3ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('kpjoijijkl', '2020-08-01 04:09:56.508219', '2020-08-01 04:09:56.508219')[0m
+  ↳ app/controllers/tasks_controller.rb:30:in `block in create'
+  [1m[35m (5.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/tasks/2
+Completed 302 Found in 23ms (ActiveRecord: 10.8ms | Allocations: 3783)
+
+
+Started GET "/tasks/2" for 127.0.0.1 at 2020-08-01 13:09:56 +0900
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTask Load (1.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (Duration: 0.5ms | Allocations: 239)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 5.7ms | ActiveRecord: 1.8ms | Allocations: 6119)
+
+
+Started GET "/tasks/2/edit" for 127.0.0.1 at 2020-08-01 13:09:57 +0900
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTask Load (2.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.1ms | Allocations: 583)
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 2.4ms | Allocations: 840)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 7.7ms | ActiveRecord: 2.3ms | Allocations: 6278)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-08-01 13:10:00 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (3.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 836)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 9.3ms | ActiveRecord: 3.7ms | Allocations: 5526)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2020-08-01 13:10:01 +0900
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.3ms | Allocations: 520)
+  Rendered tasks/new.html.erb within layouts/application (Duration: 1.5ms | Allocations: 613)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 5310)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2020-08-01 13:10:03 +0900
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"sdDECd/4ZX9p/D9ncsyOTfYoSydZTj6/YoSgEnAm5pPqh59uiUNUxNwogEJ9Xwt0PDvfUo4R2upm/mqvJx/4nw==", "task"=>{"body"=>"klklmk"}, "commit"=>"Create Task"}
+  [1m[35m (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:30:in `block in create'
+  [1m[36mTask Create (2.3ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('klklmk', '2020-08-01 04:10:03.918448', '2020-08-01 04:10:03.918448')[0m
+  ↳ app/controllers/tasks_controller.rb:30:in `block in create'
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/tasks/3
+Completed 302 Found in 15ms (ActiveRecord: 10.0ms | Allocations: 3522)
+
+
+Started GET "/tasks/3" for 127.0.0.1 at 2020-08-01 13:10:03 +0900
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTask Load (1.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (Duration: 0.2ms | Allocations: 80)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 5.1ms | ActiveRecord: 1.8ms | Allocations: 5372)
+
+
+Started GET "/tasks/3/edit" for 127.0.0.1 at 2020-08-01 13:10:05 +0900
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTask Load (2.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.0ms | Allocations: 554)
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 1.3ms | Allocations: 677)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 7.0ms | ActiveRecord: 2.5ms | Allocations: 5953)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-08-01 13:10:06 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (3.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 5.2ms | Allocations: 955)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 9.5ms | ActiveRecord: 3.3ms | Allocations: 5637)
+
+
+Started DELETE "/tasks/2" for 127.0.0.1 at 2020-08-01 13:10:09 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"qGUYWRaM+LT+IBqTNOxQHoaqD0sV/aozPY54jDlCNrdMO6iSiJTtVZmvyazGL5+2JI8wnJBwsQaGbiLIPiKgYA==", "id"=>"2"}
+  [1m[36mTask Load (3.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (1.7ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 2[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (7.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 20ms (ActiveRecord: 14.0ms | Allocations: 3808)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-08-01 13:10:09 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 833)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 6.3ms | ActiveRecord: 1.8ms | Allocations: 5533)
+
+
+Started DELETE "/tasks/3" for 127.0.0.1 at 2020-08-01 13:10:11 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dePfDxGrOwNexQRdrekwDIbjxvqgvW2KJzPC9a/juDGRvW/Ej7Mu4jlK12JfKv+kJMb5LSUwdr+c05ixqIMu5g==", "id"=>"3"}
+  [1m[36mTask Load (2.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (1.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (2.5ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 3[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 15ms (ActiveRecord: 11.1ms | Allocations: 3793)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-08-01 13:10:11 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 710)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 8ms (Views: 6.1ms | ActiveRecord: 1.7ms | Allocations: 5388)
+
+
