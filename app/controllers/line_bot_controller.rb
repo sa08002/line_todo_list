@@ -1,4 +1,4 @@
-class LineController < ApplicationController
+class LineBotController < ApplicationController
   require "line/bot"
 
   protect_from_forgery with: :null_session
