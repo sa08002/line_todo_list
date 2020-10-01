@@ -1853,3 +1853,1117 @@ Can't verify CSRF token authenticity.
 Completed 200 OK in 6ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 552)
 
 
+Started POST "/callback" for 147.92.149.165 at 2020-08-10 16:14:42 +0900
+Cannot render console from 147.92.149.165! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"7890b92fdc0e4d4083afa570a79bf9af", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597043681140, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12473792741431", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"7890b92fdc0e4d4083afa570a79bf9af", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597043681140, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12473792741431", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 44277ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 118909)
+
+
+Started POST "/callback" for 203.104.156.75 at 2020-08-10 16:18:00 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (7.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as HTML
+  Parameters: {"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597043879744, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597043879744, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}], "line_bot"=>{"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597043879744, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597043879744, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}]}}
+Can't verify CSRF token authenticity.
+Started POST "/callback" for 203.104.156.75 at 2020-08-10 16:18:20 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by LineBotController#callback as HTML
+  Parameters: {"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597043899951, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597043899951, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}], "line_bot"=>{"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597043899951, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597043899951, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}]}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 34225ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 704659)
+
+
+Completed 200 OK in 56573ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1559291)
+
+
+Started POST "/callback" for 203.104.156.75 at 2020-08-10 16:19:20 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as HTML
+  Parameters: {"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597043959864, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597043959864, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}], "line_bot"=>{"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597043959864, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597043959864, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}]}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 77ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1486)
+
+
+Started POST "/callback" for 147.92.149.165 at 2020-08-10 16:19:36 +0900
+Cannot render console from 147.92.149.165! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"455e0a36fdb74fe6a1885085b12af684", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597043976064, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12473815561029", "text"=>"かたなあかまはま"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"455e0a36fdb74fe6a1885085b12af684", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597043976064, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12473815561029", "text"=>"かたなあかまはま"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 22310ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 55932)
+
+
+Started POST "/callback" for 203.104.156.75 at 2020-08-10 16:20:16 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as HTML
+  Parameters: {"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597044015671, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597044015671, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}], "line_bot"=>{"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597044015671, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597044015671, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}]}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 74ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1483)
+
+
+Started POST "/callback" for 147.92.149.165 at 2020-08-10 16:20:34 +0900
+Cannot render console from 147.92.149.165! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"2aac0863d2e042c8853f783f894290d0", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597044033870, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12473820019577", "text"=>"まなまはたさたはたら"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"2aac0863d2e042c8853f783f894290d0", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597044033870, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12473820019577", "text"=>"まなまはたさたはたら"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 95ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1297)
+
+
+Started POST "/callback" for 147.92.149.165 at 2020-08-10 16:20:42 +0900
+Cannot render console from 147.92.149.165! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"b5fe9dc95def403e83bbe4a451109034", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597044041695, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12473820625958", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"b5fe9dc95def403e83bbe4a451109034", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597044041695, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12473820625958", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 99ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1299)
+
+
+Started POST "/callback" for 147.92.149.165 at 2020-08-10 19:28:29 +0900
+Cannot render console from 147.92.149.165! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"fa249e6fd20a46a29732197986196330", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597055307970, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12474732417039", "text"=>"うおおぉぉぉぉ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"fa249e6fd20a46a29732197986196330", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597055307970, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12474732417039", "text"=>"うおおぉぉぉぉ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 694)
+
+
+  
+NameError (uninitialized constant LineBotController::Message):
+  
+app/controllers/line_bot_controller.rb:26:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.149.165 at 2020-08-10 19:28:45 +0900
+Cannot render console from 147.92.149.165! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"c7c50c5366f4483996bf3ef358fed5b3", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597055324989, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12474733825330", "text"=>"うおおぉぉぉぉ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"c7c50c5366f4483996bf3ef358fed5b3", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597055324989, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12474733825330", "text"=>"うおおぉぉぉぉ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 110ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 1359)
+
+
+Started POST "/callback" for 147.92.149.165 at 2020-08-10 19:29:26 +0900
+Cannot render console from 147.92.149.165! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"758511437ee744a4a4ee7ad1bce82fe8", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597055365870, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12474737236203", "text"=>"ウェットティッシュ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"758511437ee744a4a4ee7ad1bce82fe8", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597055365870, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12474737236203", "text"=>"ウェットティッシュ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 633)
+
+
+  
+NameError (uninitialized constant LineBotController::Message):
+  
+app/controllers/line_bot_controller.rb:26:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.149.165 at 2020-08-10 19:35:49 +0900
+Cannot render console from 147.92.149.165! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"2f181b2b14e74e70aaeaeee0c07d8ca9", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597055749121, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12474769168147", "text"=>"ガスト"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"2f181b2b14e74e70aaeaeee0c07d8ca9", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597055749121, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12474769168147", "text"=>"ガスト"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 632)
+
+
+  
+NameError (uninitialized constant LineBotController::Message):
+  
+app/controllers/line_bot_controller.rb:26:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started GET "/tasks" for 127.0.0.1 at 2020-08-11 10:09:33 +0900
+  [1m[35m (2.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 17.2ms | Allocations: 1535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 76ms (Views: 53.1ms | ActiveRecord: 6.9ms | Allocations: 10640)
+
+
+Started GET "/" for 127.0.0.1 at 2020-08-11 10:09:39 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 5.4ms | Allocations: 723)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 28ms (Views: 21.0ms | ActiveRecord: 2.5ms | Allocations: 5413)
+
+
+Started POST "/" for 203.104.156.75 at 2020-08-11 17:59:32 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/" for 203.104.156.75 at 2020-08-11 17:59:54 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/" for 203.104.156.75 at 2020-08-11 18:00:43 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/" for 203.104.156.75 at 2020-08-11 18:00:54 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+ActionController::RoutingError (No route matches [POST] "/"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:19:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "/callback" for 203.104.156.75 at 2020-08-11 18:04:17 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as HTML
+  Parameters: {"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597136656643, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597136656643, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}], "line_bot"=>{"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597136656643, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597136656643, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}]}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 286ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1483)
+
+
+Started POST "/callback" for 147.92.149.165 at 2020-08-11 18:04:30 +0900
+Cannot render console from 147.92.149.165! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"44b8a15c10f94c1b827b21a51aa82609", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597136669249, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12480293534160", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"44b8a15c10f94c1b827b21a51aa82609", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597136669249, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12480293534160", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 188ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1253)
+
+
+Started POST "/callback" for 147.92.149.165 at 2020-08-11 18:07:04 +0900
+Cannot render console from 147.92.149.165! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"a380f2f0a62e4f6db746d629e19f43ae", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597136824080, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12480306925207", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"a380f2f0a62e4f6db746d629e19f43ae", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597136824080, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12480306925207", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2279)
+
+
+  
+NameError (uninitialized constant LineBotController::Message
+Did you mean?  MessagePack):
+  
+app/controllers/line_bot_controller.rb:25:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 203.104.156.75 at 2020-08-12 07:42:16 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as HTML
+  Parameters: {"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597185735324, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597185735324, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}], "line_bot"=>{"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597185735324, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597185735324, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}]}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 127ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1486)
+
+
+Started POST "/callback" for 203.104.156.75 at 2020-08-12 07:42:57 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as HTML
+  Parameters: {"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597185777087, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597185777087, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}], "line_bot"=>{"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597185777087, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597185777087, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}]}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1323)
+
+
+Started POST "/callback" for 203.104.156.75 at 2020-08-12 07:43:19 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as HTML
+  Parameters: {"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597185798952, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597185798952, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}], "line_bot"=>{"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597185798952, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597185798952, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}]}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 53ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1323)
+
+
+Started POST "/callback" for 147.92.149.165 at 2020-08-12 07:43:55 +0900
+Cannot render console from 147.92.149.165! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"9832fe6b044b4dfb93bfe74cbf67c413", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597185834548, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12483565234210", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"9832fe6b044b4dfb93bfe74cbf67c413", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1597185834548, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12483565234210", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 110ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1417)
+
+
+Started POST "/callback" for 203.104.156.75 at 2020-08-12 07:46:14 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.2ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as HTML
+  Parameters: {"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597185974445, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597185974445, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}], "line_bot"=>{"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1597185974445, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1597185974445, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}]}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 87ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 1486)
+
+
+Started GET "/" for 127.0.0.1 at 2020-10-01 16:58:46 +0900
+  
+ActiveRecord::NoDatabaseError (Unknown database 'line_todo_list_development'):
+  
+activerecord (6.0.3.2) lib/active_record/connection_adapters/mysql2_adapter.rb:28:in `rescue in mysql2_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/mysql2_adapter.rb:14:in `mysql2_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:887:in `new_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `checkout_new_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:910:in `try_to_checkout_new_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:871:in `acquire_connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:593:in `checkout'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:437:in `connection'
+activerecord (6.0.3.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:1119:in `retrieve_connection'
+activerecord (6.0.3.2) lib/active_record/connection_handling.rb:221:in `retrieve_connection'
+activerecord (6.0.3.2) lib/active_record/connection_handling.rb:189:in `connection'
+activerecord (6.0.3.2) lib/active_record/migration.rb:562:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (6.0.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:32:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+  [1m[35m (35.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (46.8ms)[0m  [1m[35mCREATE DATABASE `line_todo_list_development` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (2.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE DATABASE `line_todo_list_test` DEFAULT CHARACTER SET `utf8`[0m
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (78.0ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (30.4ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (1.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT GET_LOCK('2945098807364787570', 0)[0m
+  [1m[35m (36.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateTasks (20200801031446)
+  [1m[35m (51.6ms)[0m  [1m[35mCREATE TABLE `tasks` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `body` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (1.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mprimary::SchemaMigration Create (15.7ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20200801031446')[0m
+  [1m[35m (5.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.6ms)[0m  [1m[34mSELECT `ar_internal_metadata`.* FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' LIMIT 1[0m
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (2.4ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2020-10-01 08:01:42.860938', '2020-10-01 08:01:42.860938')[0m
+  [1m[35m (5.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('2945098807364787570')[0m
+  [1m[35m (1.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for 127.0.0.1 at 2020-10-01 17:01:52 +0900
+  [1m[35m (1.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 15.2ms | Allocations: 1535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 48.3ms | ActiveRecord: 6.6ms | Allocations: 10754)
+
+
+Started GET "/callback" for 127.0.0.1 at 2020-10-01 17:06:12 +0900
+  [1m[35m (5.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/callback"):
+  
+actionpack (6.0.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.0.4) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.0.4) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.0.4) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.3.2) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.3.2) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.3.2) lib/action_dispatch/middleware/host_authorization.rb:82:in `call'
+webpacker (4.2.2) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.6.5) lib/rack/proxy.rb:57:in `call'
+railties (6.0.3.2) lib/rails/engine.rb:527:in `call'
+puma (4.3.5) lib/puma/configuration.rb:228:in `call'
+puma (4.3.5) lib/puma/server.rb:713:in `handle_request'
+puma (4.3.5) lib/puma/server.rb:472:in `process_client'
+puma (4.3.5) lib/puma/server.rb:328:in `block in run'
+puma (4.3.5) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
+Started POST "//callback" for 127.0.0.1 at 2020-10-01 17:06:36 +0900
+Processing by LineBotController#callback as HTML
+  Parameters: {"line_bot"=>{}}
+Can't verify CSRF token authenticity.
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms | Allocations: 322)
+
+
+Started GET "/tasks/new" for 127.0.0.1 at 2020-10-01 17:06:53 +0900
+Processing by TasksController#new as HTML
+  Rendering tasks/new.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 25.6ms | Allocations: 4751)
+  Rendered tasks/new.html.erb within layouts/application (Duration: 27.6ms | Allocations: 5102)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 68ms (Views: 47.5ms | ActiveRecord: 11.7ms | Allocations: 16567)
+
+
+Started POST "/tasks" for 127.0.0.1 at 2020-10-01 17:06:57 +0900
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"+GwJ7+ycaFvRwikxaiYNGX1XxWpmGinvzjFZnWRvxCCjO1KIuidZ4GQWlhRltYggt0RRH7FFzbrKS5MgM1baLA==", "task"=>{"body"=>"aaaa"}, "commit"=>"Create Task"}
+  [1m[35m (1.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:30:in `block in create'
+  [1m[36mTask Create (3.0ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('aaaa', '2020-10-01 08:06:57.872852', '2020-10-01 08:06:57.872852')[0m
+  ↳ app/controllers/tasks_controller.rb:30:in `block in create'
+  [1m[35m (5.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:30:in `block in create'
+Redirected to http://localhost:3000/tasks/1
+Completed 302 Found in 16ms (ActiveRecord: 10.1ms | Allocations: 3861)
+
+
+Started GET "/tasks/1" for 127.0.0.1 at 2020-10-01 17:06:57 +0900
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (2.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (Duration: 0.6ms | Allocations: 238)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 5.8ms | ActiveRecord: 2.2ms | Allocations: 6214)
+
+
+Started GET "/tasks/1/edit" for 127.0.0.1 at 2020-10-01 17:07:00 +0900
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTask Load (3.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.5ms | Allocations: 583)
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 2.4ms | Allocations: 841)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 7.0ms | ActiveRecord: 3.5ms | Allocations: 6349)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:07:02 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 25.0ms | Allocations: 1096)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 33ms (Views: 28.1ms | ActiveRecord: 2.6ms | Allocations: 6001)
+
+
+Started DELETE "/tasks/1" for 127.0.0.1 at 2020-10-01 17:07:04 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZBh+XN2GHpFz+N1qs4PgLlPeXn2f43GOUwT9MEgtPl2ARs6XQ54LcBR3DlVBQC+G8fthqhpuarvo5Kd0T02oig==", "id"=>"1"}
+  [1m[36mTask Load (2.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 1 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (2.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (5.1ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 1[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (12.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 28ms (ActiveRecord: 22.5ms | Allocations: 3883)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:07:04 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 711)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 5.9ms | ActiveRecord: 2.7ms | Allocations: 5486)
+
+
+Started POST "/callback" for 203.104.156.73 at 2020-10-01 17:08:49 +0900
+Cannot render console from 203.104.156.73! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as HTML
+  Parameters: {"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1601539728996, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1601539728996, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}], "line_bot"=>{"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1601539728996, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1601539728996, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}]}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 123ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1484)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:09:17 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"e48d17c8b19d4e4b8afce4f604b37512", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601539756361, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776176246355", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"e48d17c8b19d4e4b8afce4f604b37512", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601539756361, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776176246355", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 208ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1543)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:10:32 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 10.4ms | Allocations: 1541)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 48ms (Views: 27.9ms | ActiveRecord: 5.9ms | Allocations: 10602)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:12:27 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"802cb559a2fc40e6b0988185c24d7463", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601539947108, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776190821120", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"802cb559a2fc40e6b0988185c24d7463", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601539947108, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776190821120", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 354368ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 1370323)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:18:41 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (4.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"dd0919180f3f4d4b803b90e7e6de4e3e", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540320624, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776219430981", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"dd0919180f3f4d4b803b90e7e6de4e3e", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540320624, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776219430981", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 98ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1419)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:18:53 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 1541)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 41ms (Views: 25.3ms | ActiveRecord: 9.1ms | Allocations: 10664)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:18:56 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 723)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 8.7ms | ActiveRecord: 2.6ms | Allocations: 5485)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:19:50 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"6f39fc14e13449bc8a144a01761b9294", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540390129, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776224752204", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"6f39fc14e13449bc8a144a01761b9294", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540390129, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776224752204", "text"=>"あ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+  [1m[36mTask Create (2.4ms)[0m  [1m[32mINSERT INTO `tasks` (`created_at`, `updated_at`) VALUES ('2020-10-01 08:19:50.977415', '2020-10-01 08:19:50.977415')[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+Completed 200 OK in 135ms (Views: 0.3ms | ActiveRecord: 18.0ms | Allocations: 6917)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:19:58 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 914)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 2.3ms | Allocations: 5892)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:20:27 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"bef632563f4a4023a6563fc65682dc0b", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540426963, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776227588400", "text"=>"明日"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"bef632563f4a4023a6563fc65682dc0b", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540426963, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776227588400", "text"=>"明日"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (2.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+  [1m[36mTask Create (4.6ms)[0m  [1m[32mINSERT INTO `tasks` (`created_at`, `updated_at`) VALUES ('2020-10-01 08:20:27.734219', '2020-10-01 08:20:27.734219')[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+  [1m[35m (8.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+Completed 500 Internal Server Error in 156908ms (ActiveRecord: 32.0ms | Allocations: 212849)
+
+
+Started GET "/tasks/2" for 127.0.0.1 at 2020-10-01 17:23:04 +0900
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:23:04 +0900
+  [1m[35m (4.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (6.4ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  
+Errno::EIO (Input/output error @ io_writev - <STDOUT>):
+  
+app/controllers/line_bot_controller.rb:34:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Processing by TasksController#show as HTML
+Processing by TasksController#index as HTML
+  Parameters: {"id"=>"2"}
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (3.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[36mTask Load (9.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 42.5ms | Allocations: 430177)
+  Rendered tasks/show.html.erb within layouts/application (Duration: 4.1ms | Allocations: 63464)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 332ms (Views: 311.5ms | ActiveRecord: 9.8ms | Allocations: 3583694)
+
+
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 188ms (Views: 143.8ms | ActiveRecord: 3.8ms | Allocations: 1845321)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:23:17 +0900
+  [1m[35m (3.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 19.5ms | Allocations: 4427)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 27.3ms | ActiveRecord: 12.7ms | Allocations: 13626)
+
+
+Started GET "/tasks/2/edit" for 127.0.0.1 at 2020-10-01 17:23:18 +0900
+Processing by TasksController#edit as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTask Load (2.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  Rendering tasks/edit.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 18.2ms | Allocations: 2305)
+  Rendered tasks/edit.html.erb within layouts/application (Duration: 21.4ms | Allocations: 2709)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 55ms (Views: 40.8ms | ActiveRecord: 2.6ms | Allocations: 8653)
+
+
+Started GET "/tasks/2" for 127.0.0.1 at 2020-10-01 17:23:20 +0900
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTask Load (2.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (Duration: 1.1ms | Allocations: 230)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 20ms (Views: 9.9ms | ActiveRecord: 2.7ms | Allocations: 5737)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:23:21 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (3.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 6.2ms | Allocations: 960)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 22ms (Views: 17.4ms | ActiveRecord: 3.7ms | Allocations: 5718)
+
+
+Started GET "/tasks/2" for 127.0.0.1 at 2020-10-01 17:23:23 +0900
+Processing by TasksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTask Load (3.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  Rendering tasks/show.html.erb within layouts/application
+  Rendered tasks/show.html.erb within layouts/application (Duration: 0.3ms | Allocations: 77)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 6.3ms | ActiveRecord: 3.9ms | Allocations: 5442)
+
+
+Started DELETE "/tasks/3" for 127.0.0.1 at 2020-10-01 17:23:26 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vf4dkmN3QXJDOEBvMB748gWW0Mf9YRpXb7U+Oz4vgndZoK1Z/W9UkyS3k1DC3Tdap7PvEHjsAWLUVWR/OU8UoA==", "id"=>"3"}
+  [1m[36mTask Load (2.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 3 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (1.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (2.3ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 3[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (10.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 24ms (ActiveRecord: 17.9ms | Allocations: 3920)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:23:26 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 2.9ms | Allocations: 830)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 6.4ms | ActiveRecord: 1.6ms | Allocations: 5590)
+
+
+Started DELETE "/tasks/2" for 127.0.0.1 at 2020-10-01 17:23:28 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"itcUZV6rG+eCaY9pzwn2Yowu42d00C4vVSrKPfnjQr1uiaSuwLMOBuXmXFY9yjnKLgvcsPFdNRruypB5/oPUag==", "id"=>"2"}
+  [1m[36mTask Load (3.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 2 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (4.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (5.4ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 2[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (10.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 29ms (ActiveRecord: 23.5ms | Allocations: 3856)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:23:28 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 710)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 5.8ms | ActiveRecord: 2.0ms | Allocations: 5488)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:24:00 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"a98a91902fab4125a0b18a9fcc4fd2c9", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540639220, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776243902037", "text"=>"昨日"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"a98a91902fab4125a0b18a9fcc4fd2c9", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540639220, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776243902037", "text"=>"昨日"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+  [1m[36mTask Create (1.5ms)[0m  [1m[32mINSERT INTO `tasks` (`created_at`, `updated_at`) VALUES ('2020-10-01 08:24:00.159136', '2020-10-01 08:24:00.159136')[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+  [1m[35m (5.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+Completed 200 OK in 132ms (Views: 0.3ms | ActiveRecord: 16.2ms | Allocations: 6738)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:24:07 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 899)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 6.5ms | ActiveRecord: 2.0ms | Allocations: 5871)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:24:28 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"2e257159572a47d0bb35d1b4444c7df1", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540667862, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776246110098", "text"=>"今日"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"2e257159572a47d0bb35d1b4444c7df1", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540667862, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776246110098", "text"=>"今日"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+  [1m[36mTask Create (2.4ms)[0m  [1m[32mINSERT INTO `tasks` (`created_at`, `updated_at`) VALUES ('2020-10-01 08:24:28.654153', '2020-10-01 08:24:28.654153')[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+Completed 200 OK in 113ms (Views: 0.2ms | ActiveRecord: 18.5ms | Allocations: 6524)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:24:32 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (4.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1019)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 10.4ms | ActiveRecord: 4.0ms | Allocations: 5936)
+
+
+Started DELETE "/tasks/4" for 127.0.0.1 at 2020-10-01 17:24:36 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"llH0R/FunGQyXzt3MEnFKV9Qh2KHNXiiUqJZni6qk3FyD0SMb3aJhVXQ6EjCigqB/XW4tQK4Y5fpQgPaKcoFpg==", "id"=>"4"}
+  [1m[36mTask Load (2.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 4 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (5.1ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 4[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (7.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 24ms (ActiveRecord: 17.8ms | Allocations: 3975)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:24:36 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 830)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 27ms (Views: 23.7ms | ActiveRecord: 2.5ms | Allocations: 5594)
+
+
+Started DELETE "/tasks/5" for 127.0.0.1 at 2020-10-01 17:24:38 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"EDAI0yh1pV5RUBwJl3jbUK/lUELgYv7115VCSgY/fZf0brgYtm2wvzbfzzZluxT4DcBvlWXv5cBsdRgOAV/rQA==", "id"=>"5"}
+  [1m[36mTask Load (3.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 5 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (2.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (3.4ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 5[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (10.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 25ms (ActiveRecord: 19.6ms | Allocations: 3869)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:24:38 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.2ms | Allocations: 710)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 6.7ms | ActiveRecord: 2.7ms | Allocations: 5480)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:25:38 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (1.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 963)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 7.1ms | ActiveRecord: 5.2ms | Allocations: 6201)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:25:47 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"d15cffa5a87b4fe2b57a043666479f93", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540746559, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776252147403", "text"=>"今日"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"d15cffa5a87b4fe2b57a043666479f93", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540746559, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776252147403", "text"=>"今日"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (3.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+  [1m[36mTask Create (2.3ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('今日', '2020-10-01 08:25:47.334710', '2020-10-01 08:25:47.334710')[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:27:in `block in callback'
+Completed 200 OK in 138ms (Views: 0.4ms | ActiveRecord: 20.2ms | Allocations: 6023)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:25:50 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.0ms | Allocations: 894)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 2.5ms | Allocations: 5646)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:26:34 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"988a6ccd88984a4ea4eace8c9cfd6f21", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540793729, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776255759297", "text"=>"明日"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"988a6ccd88984a4ea4eace8c9cfd6f21", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540793729, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776255759297", "text"=>"明日"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+  [1m[36mTask Create (3.2ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('明日', '2020-10-01 08:26:34.926887', '2020-10-01 08:26:34.926887')[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+  [1m[35m (5.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+Completed 200 OK in 129ms (Views: 0.3ms | ActiveRecord: 18.5ms | Allocations: 6548)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:26:38 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.1ms | Allocations: 1024)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 26ms (Views: 22.1ms | ActiveRecord: 2.3ms | Allocations: 6000)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:26:48 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"551d074336854967a838b377f5529a5a", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540807681, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776256839708", "text"=>"洗剤買う"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"551d074336854967a838b377f5529a5a", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540807681, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776256839708", "text"=>"洗剤買う"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+  [1m[36mTask Create (3.2ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('洗剤買う', '2020-10-01 08:26:48.462313', '2020-10-01 08:26:48.462313')[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+Completed 200 OK in 108ms (Views: 0.3ms | ActiveRecord: 10.7ms | Allocations: 3564)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:26:51 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (3.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 1077)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 12.9ms | ActiveRecord: 3.3ms | Allocations: 5828)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:29:03 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"baa601cd462b41eaaa9340559db3bb1c", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540943079, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776267349749", "text"=>"広島帰る"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"baa601cd462b41eaaa9340559db3bb1c", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540943079, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776267349749", "text"=>"広島帰る"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+  [1m[36mTask Create (3.1ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('広島帰る', '2020-10-01 08:29:03.984557', '2020-10-01 08:29:03.984557')[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+  [1m[35m (4.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+Completed 200 OK in 131ms (Views: 0.3ms | ActiveRecord: 17.3ms | Allocations: 6578)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:29:22 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"7b28bb2b3e91491faef484647fd90264", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540961690, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776268795157", "text"=>"朝早い"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"7b28bb2b3e91491faef484647fd90264", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540961690, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776268795157", "text"=>"朝早い"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+  [1m[36mTask Create (1.5ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('朝早い', '2020-10-01 08:29:22.475839', '2020-10-01 08:29:22.475839')[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+  [1m[35m (4.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+Completed 200 OK in 107ms (Views: 0.2ms | ActiveRecord: 16.5ms | Allocations: 6547)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:29:34 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"be04498ccb314fe886f5dd9ca11401db", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540973366, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776269702074", "text"=>"たなたさあ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"be04498ccb314fe886f5dd9ca11401db", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601540973366, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776269702074", "text"=>"たなたさあ"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+  [1m[36mTask Create (2.3ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('たなたさあ', '2020-10-01 08:29:34.204281', '2020-10-01 08:29:34.204281')[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:25:in `block in callback'
+Completed 200 OK in 134ms (Views: 0.3ms | ActiveRecord: 18.2ms | Allocations: 6579)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:29:44 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (3.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 7.3ms | Allocations: 1517)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 17ms (Views: 12.0ms | ActiveRecord: 3.5ms | Allocations: 6488)
+
+
+Started DELETE "/tasks/11" for 127.0.0.1 at 2020-10-01 17:29:47 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"LKxJIscUfnuMB72TsrP48VW0PB6hYKZQikYfi1dIb2HI8vnpWQxrmuuIbqxAcDdZ95EDySTtvWUxpkXPUCj5tg==", "id"=>"11"}
+  [1m[36mTask Load (2.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 11 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (1.9ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 11[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (9.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 21ms (ActiveRecord: 15.0ms | Allocations: 3976)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:29:47 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 4.5ms | Allocations: 1326)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 7.3ms | ActiveRecord: 2.3ms | Allocations: 6092)
+
+
+Started DELETE "/tasks/10" for 127.0.0.1 at 2020-10-01 17:29:50 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9K72eklKWn+AwVkaPsg8u5Th3WdfewYDqa4R+yS3ipAQ8Eax11JPnudOiiXMC/MTNsTisNr2HTYSTku/I9ccRw==", "id"=>"10"}
+  [1m[36mTask Load (3.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 10 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (2.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (4.0ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 10[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (9.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 26ms (ActiveRecord: 19.4ms | Allocations: 3855)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:29:50 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 3.6ms | Allocations: 1203)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 10ms (Views: 6.8ms | ActiveRecord: 2.0ms | Allocations: 5983)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:31:22 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"4501199548a34a84b06fc2022ff92390", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601541081619, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776278121291", "text"=>"腹減った"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"4501199548a34a84b06fc2022ff92390", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601541081619, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776278121291", "text"=>"腹減った"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:26:in `block in callback'
+  [1m[36mTask Create (2.1ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('腹減った', '2020-10-01 08:33:30.698181', '2020-10-01 08:33:30.698181')[0m
+  ↳ app/controllers/line_bot_controller.rb:26:in `block in callback'
+  [1m[35m (5.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:26:in `block in callback'
+Completed 200 OK in 128381ms (Views: 0.3ms | ActiveRecord: 20.8ms | Allocations: 132769)
+
+
