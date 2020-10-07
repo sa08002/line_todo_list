@@ -20,16 +20,33 @@ class LineBotController < ApplicationController
       # LINE からテキストが送信された場合
       if (event.type === Line::Bot::Event::MessageType::Text)
         message = event["message"]["text"]
-
-        # 送信されたメッセージをデータベースに保存するコードを書こう
-        Task.create(body: message)
-
+    
+        text =
+          case message
+          when "一覧" # タスクの一覧を出力する
+            tasks = Task.all
+    
+            # タスクの数ぶん繰り返し指定する
+            # 配列の文字列を改行 \n で連結して1つの長い文字列とする
+            tasks.map.with_index(1) { |task, index| "#{index}: #{task.body}" }.join("\n")
+          when /削除+\d/
+            # 送られてきたメッセージから id を取り出す
+            # 「削除 3」 のように間にスペースがあっても問題ないように調整
+            index = message.gsub(/削除*/, "").strip.to_i
+            tasks = Task.all.to_a
+            task = tasks.find.with_index(1) { |_task, _index| index == _index }
+            task.destroy!
+            "タスク #{index}: 「#{task.body}」 を削除しました！"
+          else
+            Task.create!(body: message)
+            "タスク: 「#{message}」 を登録しました！"
+          end
+    
         reply_message = {
           type: "text",
-          text: "「#{message}」を登録しました！" # LINE に返すメッセージを考えてみよう
+          text: text
         }
         client.reply_message(event["replyToken"], reply_message)
-        # LINE からテキストが送信されたときの処理を記述する
       end
     end
 

@@ -2967,3 +2967,1290 @@ Can't verify CSRF token authenticity.
 Completed 200 OK in 128381ms (Views: 0.3ms | ActiveRecord: 20.8ms | Allocations: 132769)
 
 
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:41:41 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"ee52283fbc494a36821b1fcb9538d68f", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601541700309, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776326237761", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"ee52283fbc494a36821b1fcb9538d68f", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601541700309, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776326237761", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 4ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 493)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:41:48 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"19e6ead6c12e4269bff132bab45a75cc", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601541707461, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776326800918", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"19e6ead6c12e4269bff132bab45a75cc", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601541707461, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776326800918", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 358)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:42:11 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:26: syntax error, unexpected '\n', expecting =>):
+  
+app/controllers/line_bot_controller.rb:26: syntax error, unexpected '\n', expecting =>
+app/controllers/line_bot_controller.rb:26: syntax error, unexpected '\n', expecting =>
+app/controllers/line_bot_controller.rb:26: syntax error, unexpected '\n', expecting =>
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:42:17 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 21.6ms | Allocations: 4688)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 47ms (Views: 29.7ms | ActiveRecord: 14.4ms | Allocations: 13198)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:42:56 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"9ad33fd7babe460d8b7add99fedf9587", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601541776196, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776332164405", "text"=>"明後日"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"9ad33fd7babe460d8b7add99fedf9587", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601541776196, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776332164405", "text"=>"明後日"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:32:in `block in callback'
+  [1m[36mTask Create (2.0ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('明後日', '2020-10-01 08:42:57.003513', '2020-10-01 08:42:57.003513')[0m
+  ↳ app/controllers/line_bot_controller.rb:32:in `block in callback'
+  [1m[35m (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:32:in `block in callback'
+Completed 200 OK in 294ms (Views: 0.2ms | ActiveRecord: 18.5ms | Allocations: 6805)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 17:43:10 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1518)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 9.2ms | ActiveRecord: 2.5ms | Allocations: 6505)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:43:45 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"d297f630e0054513b73b3d497a5f9126", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601541824291, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776335927619", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"d297f630e0054513b73b3d497a5f9126", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601541824291, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776335927619", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 248129ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 902894)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:48:06 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (3.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"8d5d058f672941cfb564b205bd04f90a", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601542085368, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776356907956", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"8d5d058f672941cfb564b205bd04f90a", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601542085368, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776356907956", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 148ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 1420)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:48:50 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"b4a423fad0e64828981f0cae62bd6205", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601542129897, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776360696104", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"b4a423fad0e64828981f0cae62bd6205", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601542129897, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776360696104", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:29:in `block in callback'
+Completed 200 OK in 104ms (Views: 0.3ms | ActiveRecord: 11.5ms | Allocations: 6040)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 17:49:24 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"6eb30d241eaf46bf9bfb581dbdaab470", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601542164004, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776363571813", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"6eb30d241eaf46bf9bfb581dbdaab470", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601542164004, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776363571813", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:29:in `block in callback'
+  [1m[36mCACHE Task Load (0.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+  [1m[36mTask Load (2.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+  [1m[36mCACHE Task Load (0.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+Completed 200 OK in 893979ms (Views: 0.4ms | ActiveRecord: 13.4ms | Allocations: 6747677)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:04:33 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (4.1ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"6a5b8b8f6e6042f1bd73e5245eed7b8f", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543072085, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776445526917", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"6a5b8b8f6e6042f1bd73e5245eed7b8f", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543072085, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776445526917", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+Completed 500 Internal Server Error in 206ms (ActiveRecord: 0.0ms | Allocations: 52181)
+
+
+  [1m[36mCACHE Task Load (0.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+  
+NameError (undefined local variable or method `tasks' for #<LineBotController:0x00007f812d990ee8>):
+  
+app/controllers/line_bot_controller.rb:32:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:05:31 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"72170bba1b814c0393b030801b616d1c", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543130623, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776450993702", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"72170bba1b814c0393b030801b616d1c", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543130623, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776450993702", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+Completed 500 Internal Server Error in 113ms (ActiveRecord: 0.0ms | Allocations: 51707)
+
+
+  [1m[36mCACHE Task Load (0.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+  
+NameError (undefined local variable or method `tasks' for #<LineBotController:0x00007f812e3626b0>):
+  
+app/controllers/line_bot_controller.rb:28:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:05:49 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"b0a81e56b6604fa0b642f1b35937152f", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543148971, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776452704389", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"b0a81e56b6604fa0b642f1b35937152f", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543148971, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776452704389", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+Completed 500 Internal Server Error in 101ms (ActiveRecord: 0.0ms | Allocations: 51709)
+
+
+  [1m[36mCACHE Task Load (0.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+  
+NameError (undefined local variable or method `tasks' for #<LineBotController:0x00007f812a4e2660>):
+  
+app/controllers/line_bot_controller.rb:28:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:06:12 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"98754388784d47f2b1a104743dee78cd", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543171422, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776454805235", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"98754388784d47f2b1a104743dee78cd", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543171422, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776454805235", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+Completed 500 Internal Server Error in 93ms (ActiveRecord: 0.0ms | Allocations: 51706)
+
+
+  [1m[36mCACHE Task Load (0.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+  
+NameError (undefined local variable or method `tasks' for #<LineBotController:0x00007f812d37fe50>):
+  
+app/controllers/line_bot_controller.rb:28:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:06:24 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"f2ea757373a74ebd95a32dc91681c829", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543183412, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776455912728", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"f2ea757373a74ebd95a32dc91681c829", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543183412, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776455912728", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+Completed 500 Internal Server Error in 91ms (ActiveRecord: 0.0ms | Allocations: 51710)
+
+
+  [1m[36mCACHE Task Load (0.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+  
+NameError (undefined local variable or method `tasks' for #<LineBotController:0x00007f812dfc4058>):
+  
+app/controllers/line_bot_controller.rb:28:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:08:53 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"c1dbc12c657041b6b9bd6c960a21890e", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543332749, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776469762437", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"c1dbc12c657041b6b9bd6c960a21890e", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543332749, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776469762437", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+Completed 500 Internal Server Error in 114ms (ActiveRecord: 0.0ms | Allocations: 51709)
+
+
+  [1m[36mCACHE Task Load (0.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+  
+NameError (undefined local variable or method `tasks' for #<LineBotController:0x00007f8133898670>):
+  
+app/controllers/line_bot_controller.rb:28:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:09:26 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.8ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"ecb5d88883114b3fbb049281bc7a077b", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543365512, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776472783571", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"ecb5d88883114b3fbb049281bc7a077b", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543365512, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776472783571", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+Completed 500 Internal Server Error in 115ms (ActiveRecord: 0.0ms | Allocations: 52180)
+
+
+  [1m[36mCACHE Task Load (0.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` LIMIT 11[0m
+  
+NameError (undefined local variable or method `tasks' for #<LineBotController:0x00007fbf45d5d5e8>):
+  
+app/controllers/line_bot_controller.rb:28:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:09:45 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"328713223565487ea452566bcd58b575", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543384318, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776474512275", "text"=>"そfj"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"328713223565487ea452566bcd58b575", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543384318, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776474512275", "text"=>"そfj"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+  [1m[36mTask Create (2.4ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('そfj', '2020-10-01 09:09:45.145802', '2020-10-01 09:09:45.145802')[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+  [1m[35m (7.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+Completed 200 OK in 166ms (Views: 0.6ms | ActiveRecord: 20.4ms | Allocations: 6831)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 18:09:49 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 6.9ms | Allocations: 1919)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 30ms (Views: 24.9ms | ActiveRecord: 2.8ms | Allocations: 10033)
+
+
+Started DELETE "/tasks/14" for 127.0.0.1 at 2020-10-01 18:09:52 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pW4z42FgPiCUxc8UwrtIc+l25k3GmMbkyEpFC7juvelBMIMo/3grwfNKHCsweIfbS1PZmkMV3dFzqh9Pv44rPg==", "id"=>"14"}
+  [1m[36mTask Load (2.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 14 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (3.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (5.0ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 14[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (7.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 26ms (ActiveRecord: 17.9ms | Allocations: 4318)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 18:09:52 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (4.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 6.8ms | Allocations: 1459)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 9.1ms | ActiveRecord: 4.0ms | Allocations: 6229)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:10:08 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"04717b3536754d10b5d0c46f787c3cd8", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543407937, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776476668394", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"04717b3536754d10b5d0c46f787c3cd8", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543407937, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776476668394", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:29:in `block in callback'
+Completed 500 Internal Server Error in 30093ms (ActiveRecord: 2.3ms | Allocations: 335513)
+
+
+  
+NameError (undefined local variable or method `tasks' for #<LineBotController:0x00007fbf496b35b8>):
+  
+app/controllers/line_bot_controller.rb:29:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:10:46 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"b1a18bf9b4504643a3bf1a4a79407020", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543445974, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776480153312", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"b1a18bf9b4504643a3bf1a4a79407020", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543445974, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776480153312", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (3.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:29:in `block in callback'
+Completed 500 Internal Server Error in 12437ms (ActiveRecord: 15.3ms | Allocations: 132469)
+
+
+  
+NameError (undefined local variable or method `task_index' for #<LineBotController:0x00007fbf45d57b20>):
+  
+app/controllers/line_bot_controller.rb:30:in `block (2 levels) in callback'
+app/controllers/line_bot_controller.rb:29:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:11:21 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"2240bd087023435db76ca84decf47482", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543480736, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776483336606", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"2240bd087023435db76ca84decf47482", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543480736, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776483336606", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:29:in `block in callback'
+Completed 500 Internal Server Error in 103ms (ActiveRecord: 9.8ms | Allocations: 51699)
+
+
+  
+NameError (undefined local variable or method `task_index' for #<LineBotController:0x00007fbf49b51fc0>):
+  
+app/controllers/line_bot_controller.rb:30:in `block (2 levels) in callback'
+app/controllers/line_bot_controller.rb:29:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:11:33 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"6cc9749e88364109a0b366bd488b7ed3", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543493084, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776484459347", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"6cc9749e88364109a0b366bd488b7ed3", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543493084, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776484459347", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:28:in `block in callback'
+Completed 500 Internal Server Error in 116ms (ActiveRecord: 11.8ms | Allocations: 51686)
+
+
+  
+NameError (undefined local variable or method `task_index' for #<LineBotController:0x00007fbf45fe2548>):
+  
+app/controllers/line_bot_controller.rb:29:in `block (2 levels) in callback'
+app/controllers/line_bot_controller.rb:28:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:12:38 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:33: syntax error, unexpected '\n', expecting =>
+/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:37: syntax error, unexpected ':', expecting end
+            type: "text",
+                ^
+/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:37: syntax error, unexpected ',', expecting end
+            type: "text",
+                        ^):
+  
+app/controllers/line_bot_controller.rb:33: syntax error, unexpected '\n', expecting =>
+app/controllers/line_bot_controller.rb:37: syntax error, unexpected ':', expecting end
+app/controllers/line_bot_controller.rb:37: syntax error, unexpected ',', expecting end
+app/controllers/line_bot_controller.rb:33: syntax error, unexpected '\n', expecting =>
+app/controllers/line_bot_controller.rb:37: syntax error, unexpected ':', expecting end
+app/controllers/line_bot_controller.rb:37: syntax error, unexpected ',', expecting end
+app/controllers/line_bot_controller.rb:33: syntax error, unexpected '\n', expecting =>
+app/controllers/line_bot_controller.rb:37: syntax error, unexpected ':', expecting end
+app/controllers/line_bot_controller.rb:37: syntax error, unexpected ',', expecting end
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:13:24 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"159ebb4a837f4dff8278fc80fe2f9c71", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543603565, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776494515774", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"159ebb4a837f4dff8278fc80fe2f9c71", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543603565, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776494515774", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:28:in `block in callback'
+Completed 500 Internal Server Error in 99ms (ActiveRecord: 11.1ms | Allocations: 51680)
+
+
+  
+NameError (undefined local variable or method `task_index' for #<LineBotController:0x00007fbf49b8ed80>):
+  
+app/controllers/line_bot_controller.rb:29:in `block (2 levels) in callback'
+app/controllers/line_bot_controller.rb:28:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:14:26 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:37: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+...          text: puts task_index
+...                     ^~~~~~~~~~):
+  
+app/controllers/line_bot_controller.rb:37: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+app/controllers/line_bot_controller.rb:37: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+app/controllers/line_bot_controller.rb:37: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:14:59 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:37: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+            text: puts "#{task_index}"
+                       ^
+/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:38: syntax error, unexpected '}', expecting end
+          }
+          ^):
+  
+app/controllers/line_bot_controller.rb:37: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/controllers/line_bot_controller.rb:38: syntax error, unexpected '}', expecting end
+app/controllers/line_bot_controller.rb:37: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/controllers/line_bot_controller.rb:38: syntax error, unexpected '}', expecting end
+app/controllers/line_bot_controller.rb:37: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/controllers/line_bot_controller.rb:38: syntax error, unexpected '}', expecting end
+Started POST "/callback" for 147.92.150.194 at 2020-10-01 18:18:53 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"44efb22926194060b31f03fdbeaa94c7", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543932859, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776524080047", "text"=>"選択"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"44efb22926194060b31f03fdbeaa94c7", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601543932859, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12776524080047", "text"=>"選択"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+  [1m[36mTask Create (1.3ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('選択', '2020-10-01 09:18:53.771051', '2020-10-01 09:18:53.771051')[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+  [1m[35m (5.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+Completed 200 OK in 147ms (Views: 0.5ms | ActiveRecord: 16.8ms | Allocations: 6576)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-01 18:18:56 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 6.0ms | Allocations: 1640)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 11.2ms | ActiveRecord: 2.5ms | Allocations: 6636)
+
+
+Started POST "/callback" for 203.104.156.75 at 2020-10-05 10:19:53 +0900
+Cannot render console from 203.104.156.75! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (10.6ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (4.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as HTML
+  Parameters: {"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1601860792942, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1601860792942, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}], "line_bot"=>{"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1601860792942, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1601860792942, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}]}}
+Can't verify CSRF token authenticity.
+  [1m[35m (3.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+  [1m[36mTask Create (13.0ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('Hello, world', '2020-10-05 01:19:54.212005', '2020-10-05 01:19:54.212005')[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+  [1m[35m (12.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+Completed 200 OK in 170ms (Views: 0.2ms | ActiveRecord: 51.5ms | Allocations: 7326)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:20:11 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"185e45c2ae1c42d59fc9e1af8b7ce77c", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601860811022, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797056753909", "text"=>"こんにちは"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"185e45c2ae1c42d59fc9e1af8b7ce77c", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601860811022, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797056753909", "text"=>"こんにちは"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (2.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+  [1m[36mTask Create (3.1ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('こんにちは', '2020-10-05 01:20:11.766865', '2020-10-05 01:20:11.766865')[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+  [1m[35m (9.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:44:in `block in callback'
+Completed 200 OK in 89ms (Views: 0.3ms | ActiveRecord: 14.5ms | Allocations: 3589)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-05 10:20:41 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (4.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 9.6ms | Allocations: 2293)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 45ms (Views: 35.6ms | ActiveRecord: 4.2ms | Allocations: 10945)
+
+
+Started DELETE "/tasks/16" for 127.0.0.1 at 2020-10-05 10:20:50 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KGGGYRDou9AooUfoJvbOJL/fr2zbUXtX8+JPfmAm9NjMPzaqjvCuMU8ulNfUNQGMHfqQu17cYGJIAhU6Z0ZiDw==", "id"=>"16"}
+  [1m[36mTask Load (3.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 16 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (2.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (7.2ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 16[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (11.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 46ms (ActiveRecord: 24.4ms | Allocations: 4273)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-05 10:20:50 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (7.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 9.7ms | Allocations: 1705)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 9.5ms | ActiveRecord: 7.1ms | Allocations: 6403)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:22:26 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"c86be05557a34e4ab59c096fb88df911", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601860945885, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797065847514", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"c86be05557a34e4ab59c096fb88df911", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601860945885, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797065847514", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+Completed 200 OK in 17811ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 35279)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:23:08 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"918c6b207d99415787c50af7c1149775", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601860987879, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797068690670", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"918c6b207d99415787c50af7c1149775", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601860987879, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797068690670", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:33:in `block in callback'
+Completed 200 OK in 17039ms (Views: 0.4ms | ActiveRecord: 11.3ms | Allocations: 40211)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:23:57 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"2b717a446e7a4e93beeb479f636219f1", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861036884, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797072008422", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"2b717a446e7a4e93beeb479f636219f1", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861036884, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797072008422", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:28:in `block in callback'
+Completed 500 Internal Server Error in 104ms (ActiveRecord: 10.7ms | Allocations: 51684)
+
+
+  
+NameError (undefined local variable or method `task_index' for #<LineBotController:0x00007f9c6982d0e0>):
+  
+app/controllers/line_bot_controller.rb:29:in `block (2 levels) in callback'
+app/controllers/line_bot_controller.rb:28:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:25:08 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"2e17b40616c64f53982d139f3a0317cf", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861107731, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797076796636", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"2e17b40616c64f53982d139f3a0317cf", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861107731, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797076796636", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:28:in `block in callback'
+Completed 500 Internal Server Error in 54629ms (ActiveRecord: 9.9ms | Allocations: 68300)
+
+
+  
+Errno::EIO (Input/output error @ io_writev - <STDOUT>):
+  
+app/controllers/line_bot_controller.rb:32:in `block (2 levels) in callback'
+app/controllers/line_bot_controller.rb:28:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:26:51 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.9ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"3135877cfc52455891f58e40fecf3b77", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861210844, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797083788717", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"3135877cfc52455891f58e40fecf3b77", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861210844, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797083788717", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (3.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:28:in `block in callback'
+Completed 200 OK in 22ms (Views: 0.2ms | ActiveRecord: 13.0ms | Allocations: 4585)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:28:00 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"52e9611544104e88bc64ebba6c5ec2ea", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861280232, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797088485500", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"52e9611544104e88bc64ebba6c5ec2ea", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861280232, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797088485500", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:30:in `block in callback'
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 10.9ms | Allocations: 4109)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:28:36 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"bb182e8535af40939f27072fbb428edf", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861315280, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797090857666", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"bb182e8535af40939f27072fbb428edf", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861315280, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797090857666", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:30:in `block in callback'
+Completed 200 OK in 49804ms (Views: 0.5ms | ActiveRecord: 11.7ms | Allocations: 964070)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:29:37 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"1eabad82cdad432cb27315850a5c1c4c", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861376988, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797095032507", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"1eabad82cdad432cb27315850a5c1c4c", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861376988, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797095032507", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:30:in `block in callback'
+Completed 200 OK in 109ms (Views: 0.4ms | ActiveRecord: 10.8ms | Allocations: 5090)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:30:05 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:40: syntax error, unexpected tIDENTIFIER, expecting '}'
+            binding.pry
+            ^~~~~~~
+/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:41: syntax error, unexpected '}', expecting end
+          }
+          ^):
+  
+app/controllers/line_bot_controller.rb:40: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/line_bot_controller.rb:41: syntax error, unexpected '}', expecting end
+app/controllers/line_bot_controller.rb:40: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/line_bot_controller.rb:41: syntax error, unexpected '}', expecting end
+app/controllers/line_bot_controller.rb:40: syntax error, unexpected tIDENTIFIER, expecting '}'
+app/controllers/line_bot_controller.rb:41: syntax error, unexpected '}', expecting end
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:30:50 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"593c0206b6e64debbea032135235cbbf", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861449901, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797099997202", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"593c0206b6e64debbea032135235cbbf", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861449901, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797099997202", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:30:in `block in callback'
+Completed 200 OK in 89ms (Views: 0.4ms | ActiveRecord: 9.7ms | Allocations: 5044)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:31:13 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"a615afc599954a11b8ab8e3669bf57b2", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861472866, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797101570585", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"a615afc599954a11b8ab8e3669bf57b2", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861472866, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797101570585", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:30:in `block in callback'
+Completed 200 OK in 93180ms (Views: 0.2ms | ActiveRecord: 18.6ms | Allocations: 2981499)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:32:52 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"634671e002f84beb891d4544ccff5069", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861571545, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797108282343", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"634671e002f84beb891d4544ccff5069", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861571545, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797108282343", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:30:in `block in callback'
+Completed 200 OK in 8929ms (Views: 0.4ms | ActiveRecord: 9.8ms | Allocations: 22374)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:33:55 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"5339e1470653454ba55ca0f97ee9e082", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861634819, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797112588589", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"5339e1470653454ba55ca0f97ee9e082", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861634819, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797112588589", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:30:in `block in callback'
+Completed 200 OK in 4881ms (Views: 0.3ms | ActiveRecord: 10.3ms | Allocations: 16811)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:34:12 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"110419508fc54657ac3b0a2709ca4813", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861652273, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797113785705", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"110419508fc54657ac3b0a2709ca4813", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861652273, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797113785705", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:30:in `block in callback'
+Completed 200 OK in 73ms (Views: 0.4ms | ActiveRecord: 11.1ms | Allocations: 5015)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:37:40 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:52: syntax error, unexpected end, expecting '}'
+              end   
+              ^~~
+/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:61: else without rescue is useless
+        else
+        ^~~~
+/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:87: syntax error, unexpected end-of-input, expecting end):
+  
+app/controllers/line_bot_controller.rb:52: syntax error, unexpected end, expecting '}'
+app/controllers/line_bot_controller.rb:61: else without rescue is useless
+app/controllers/line_bot_controller.rb:87: syntax error, unexpected end-of-input, expecting end
+app/controllers/line_bot_controller.rb:52: syntax error, unexpected end, expecting '}'
+app/controllers/line_bot_controller.rb:61: else without rescue is useless
+app/controllers/line_bot_controller.rb:87: syntax error, unexpected end-of-input, expecting end
+app/controllers/line_bot_controller.rb:52: syntax error, unexpected end, expecting '}'
+app/controllers/line_bot_controller.rb:61: else without rescue is useless
+app/controllers/line_bot_controller.rb:87: syntax error, unexpected end-of-input, expecting end
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:38:09 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"04b58b0fb9f94d0d8b44aee426a5132c", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861889145, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797129911094", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"04b58b0fb9f94d0d8b44aee426a5132c", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861889145, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797129911094", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:48:in `block in callback'
+Completed 500 Internal Server Error in 110ms (ActiveRecord: 9.2ms | Allocations: 50957)
+
+
+  
+NameError (undefined local variable or method `reply_message' for #<LineBotController:0x00007fce3a882330>):
+  
+app/controllers/line_bot_controller.rb:58:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:39:00 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"e8877120113f483aa9da1486d8224ba1", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861939800, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797133342302", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"e8877120113f483aa9da1486d8224ba1", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861939800, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797133342302", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.5ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:30:in `block in callback'
+Completed 200 OK in 125ms (Views: 0.3ms | ActiveRecord: 11.7ms | Allocations: 5021)
+
+
+Started DELETE "/tasks/17" for 127.0.0.1 at 2020-10-05 10:39:06 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Z+w7qJF1QiTmTEXSiRqPeIOfUG9M2C5MxKATBGo/i0iDsotjD21XxYHDlu172UDQIbpvuMlVNXl/QElAbV8dnw==", "id"=>"17"}
+  [1m[36mTask Load (2.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 17 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (1.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (2.5ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 17[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (10.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 25ms (ActiveRecord: 16.8ms | Allocations: 4384)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-05 10:39:06 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 6.3ms | Allocations: 1896)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 35ms (Views: 31.6ms | ActiveRecord: 2.4ms | Allocations: 9898)
+
+
+Started DELETE "/tasks/15" for 127.0.0.1 at 2020-10-05 10:39:09 +0900
+Processing by TasksController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ShffyFCCXepLB0ML3FO1/u3mxFLYKZI72rqT6uaYbuSuSW8DzppICyyIkDQukHpWT8P7hV2kiQ5hWsmu4fj4Mw==", "id"=>"15"}
+  [1m[36mTask Load (3.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks` WHERE `tasks`.`id` = 15 LIMIT 1[0m
+  ↳ app/controllers/tasks_controller.rb:67:in `set_task'
+  [1m[35m (2.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[36mTask Destroy (2.1ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 15[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+  [1m[35m (13.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/tasks_controller.rb:57:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 28ms (ActiveRecord: 21.7ms | Allocations: 3786)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-05 10:39:09 +0900
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (2.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1458)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 2.0ms | Allocations: 6151)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:39:15 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"099243d2a68d4d40b56f255d82809f62", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861954572, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797134342208", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"099243d2a68d4d40b56f255d82809f62", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601861954572, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797134342208", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:30:in `block in callback'
+Completed 200 OK in 87ms (Views: 0.4ms | ActiveRecord: 2.2ms | Allocations: 1972)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:42:25 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  
+SyntaxError (/Users/oonishitsuyoshisoku/app/line_todo_list/app/controllers/line_bot_controller.rb:39: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+...          text: puts task_index
+...                     ^~~~~~~~~~):
+  
+app/controllers/line_bot_controller.rb:39: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+app/controllers/line_bot_controller.rb:39: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+app/controllers/line_bot_controller.rb:39: syntax error, unexpected tIDENTIFIER, expecting do or '{' or '('
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 10:42:43 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"8691da1075b64b069850a0825f12208f", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601862162949, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797148554120", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"8691da1075b64b069850a0825f12208f", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601862162949, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797148554120", "text"=>"確認"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:30:in `block in callback'
+Completed 200 OK in 89ms (Views: 0.4ms | ActiveRecord: 10.2ms | Allocations: 4979)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 11:28:05 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (5.0ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"c2cf1f63192a4cee9ee4510c9262fbba", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601864884670, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797339371563", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"c2cf1f63192a4cee9ee4510c9262fbba", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601864884670, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797339371563", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.4ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 500 Internal Server Error in 100ms (ActiveRecord: 2.4ms | Allocations: 51766)
+
+
+  
+NameError (undefined local variable or method `index' for #<LineBotController:0x00007fce329b98f0>):
+  
+app/controllers/line_bot_controller.rb:31:in `block (2 levels) in callback'
+app/controllers/line_bot_controller.rb:31:in `map'
+app/controllers/line_bot_controller.rb:31:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 11:30:12 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"5544cd9ee06e41daaa858f9cdee579e4", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865011343, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797348382191", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"5544cd9ee06e41daaa858f9cdee579e4", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865011343, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797348382191", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 1156ms (Views: 0.2ms | ActiveRecord: 39.3ms | Allocations: 4992)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 11:30:23 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"def0a97d93c64df3903ee0eb0ceb58ae", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865023025, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797349208142", "text"=>"削除 1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"def0a97d93c64df3903ee0eb0ceb58ae", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865023025, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797349208142", "text"=>"削除 1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (2.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[36mTask Create (2.9ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('削除 1', '2020-10-05 02:30:23.826663', '2020-10-05 02:30:23.826663')[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[35m (10.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+Completed 200 OK in 74ms (Views: 0.2ms | ActiveRecord: 16.4ms | Allocations: 3740)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 11:30:39 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"4a66f086fc504f05abf34bed6fa857f9", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865038883, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797350354639", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"4a66f086fc504f05abf34bed6fa857f9", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865038883, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797350354639", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (3.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 66ms (Views: 0.2ms | ActiveRecord: 3.0ms | Allocations: 1995)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 11:30:56 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"582523cb769b4abb90dd4c594a18b3cd", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865055932, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797351583189", "text"=>"削除7"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"582523cb769b4abb90dd4c594a18b3cd", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865055932, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797351583189", "text"=>"削除7"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (4.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (2.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (12.9ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 18[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (8.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 90ms (Views: 0.3ms | ActiveRecord: 27.4ms | Allocations: 4073)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 11:31:53 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"7d28b682d5864a4cb54847dc25bb5a73", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865112561, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797355641764", "text"=>"削除１"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"7d28b682d5864a4cb54847dc25bb5a73", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865112561, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797355641764", "text"=>"削除１"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (3.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[36mTask Create (2.8ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('削除１', '2020-10-05 02:31:53.307883', '2020-10-05 02:31:53.307883')[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[35m (6.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+Completed 200 OK in 93ms (Views: 0.2ms | ActiveRecord: 12.2ms | Allocations: 3570)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 11:32:01 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"fee95fb1fab34e69bccfb1aa4647c2e7", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865120314, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797356205168", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"fee95fb1fab34e69bccfb1aa4647c2e7", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865120314, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797356205168", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (2.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (5.9ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 6[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (11.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 94ms (Views: 0.2ms | ActiveRecord: 22.5ms | Allocations: 4069)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 11:32:10 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"3fd491bb8c894a3eb7e0a54b4ee27008", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865129420, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797356852950", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"3fd491bb8c894a3eb7e0a54b4ee27008", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865129420, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797356852950", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 54ms (Views: 0.3ms | ActiveRecord: 1.9ms | Allocations: 1985)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 11:32:18 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"4e5745feb04b4399bc4d26f5cf831c80", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865137599, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797357439540", "text"=>"削除6"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"4e5745feb04b4399bc4d26f5cf831c80", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865137599, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797357439540", "text"=>"削除6"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (4.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (1.8ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 19[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (6.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 78ms (Views: 0.2ms | ActiveRecord: 14.8ms | Allocations: 4057)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 11:32:25 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"12c2d9bd4b074140a0dcb02ecc2800d1", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865144907, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797357967825", "text"=>"削除2"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"12c2d9bd4b074140a0dcb02ecc2800d1", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865144907, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797357967825", "text"=>"削除2"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.7ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (3.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (3.0ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 8[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (21.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 96ms (Views: 0.2ms | ActiveRecord: 31.1ms | Allocations: 4049)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 11:32:32 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"326fa9b3d7c742928573a8aaf60ede5e", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865151566, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797358445890", "text"=>"削除2"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"326fa9b3d7c742928573a8aaf60ede5e", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865151566, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797358445890", "text"=>"削除2"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (2.8ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 9[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (7.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 112ms (Views: 0.3ms | ActiveRecord: 14.7ms | Allocations: 4037)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 11:32:38 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"47a9ce8760924a3188eff27046bc2f2f", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865157859, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797358893513", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"47a9ce8760924a3188eff27046bc2f2f", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601865157859, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12797358893513", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 64ms (Views: 0.2ms | ActiveRecord: 2.9ms | Allocations: 1943)
+
+
+Started GET "/tasks" for 127.0.0.1 at 2020-10-05 20:28:25 +0900
+  [1m[35m (9.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (2.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by TasksController#index as HTML
+  Rendering tasks/index.html.erb within layouts/application
+  [1m[36mTask Load (3.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/views/tasks/index.html.erb:14
+  Rendered tasks/index.html.erb within layouts/application (Duration: 41.5ms | Allocations: 4556)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 106ms (Views: 69.4ms | ActiveRecord: 20.3ms | Allocations: 13667)
+
+
+Started POST "/callback" for 203.104.156.76 at 2020-10-05 20:31:26 +0900
+Cannot render console from 203.104.156.76! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (2.7ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by LineBotController#callback as HTML
+  Parameters: {"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1601897485195, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1601897485195, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}], "line_bot"=>{"events"=>[{"replyToken"=>"00000000000000000000000000000000", "type"=>"message", "timestamp"=>1601897485195, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100001", "type"=>"text", "text"=>"Hello, world"}}, {"replyToken"=>"ffffffffffffffffffffffffffffffff", "type"=>"message", "timestamp"=>1601897485195, "source"=>{"type"=>"user", "userId"=>"Udeadbeefdeadbeefdeadbeefdeadbeef"}, "message"=>{"id"=>"100002", "type"=>"sticker", "packageId"=>"1", "stickerId"=>"1"}}]}}
+Can't verify CSRF token authenticity.
+  [1m[35m (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[36mTask Create (9.0ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('Hello, world', '2020-10-05 11:31:26.334163', '2020-10-05 11:31:26.334163')[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[35m (5.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+Completed 200 OK in 1161ms (Views: 0.3ms | ActiveRecord: 27.1ms | Allocations: 7332)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:31:49 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"a1785c941bac4febb9d098394825c347", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897508291, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799903785502", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"a1785c941bac4febb9d098394825c347", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897508291, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799903785502", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 90ms (Views: 0.2ms | ActiveRecord: 2.6ms | Allocations: 2000)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:31:56 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"6cfaf399b165487a85e6bad245a26e7d", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897515716, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799904456080", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"6cfaf399b165487a85e6bad245a26e7d", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897515716, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799904456080", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.2ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (3.1ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 7[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (7.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 88ms (Views: 0.2ms | ActiveRecord: 14.5ms | Allocations: 6620)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:32:01 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"9d2aaf38803142349464b9841fbdc82d", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897521099, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799904946399", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"9d2aaf38803142349464b9841fbdc82d", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897521099, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799904946399", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (4.6ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 12[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (8.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 83ms (Views: 0.2ms | ActiveRecord: 16.4ms | Allocations: 4029)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:32:02 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"897a06b3a1114376a0ee0fee62bbdc5b", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897522139, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799905034098", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"897a06b3a1114376a0ee0fee62bbdc5b", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897522139, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799905034098", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (3.7ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 13[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (8.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 80ms (Views: 0.2ms | ActiveRecord: 16.0ms | Allocations: 4034)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:32:04 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"6bb35b42650c4d1bb090c72ae1be1569", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897524024, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799905218046", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"6bb35b42650c4d1bb090c72ae1be1569", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897524024, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799905218046", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (2.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (2.0ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 20[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (9.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 80ms (Views: 0.3ms | ActiveRecord: 16.1ms | Allocations: 4008)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:32:07 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"c75beba9e2c34c56a3b4dd1bd5bfedb9", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897526686, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799905450707", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"c75beba9e2c34c56a3b4dd1bd5bfedb9", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897526686, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799905450707", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (5.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 5.1ms | Allocations: 1313)
+
+
+  
+NoMethodError (undefined method `destroy!' for nil:NilClass):
+  
+app/controllers/line_bot_controller.rb:38:in `block in callback'
+app/controllers/line_bot_controller.rb:19:in `each'
+app/controllers/line_bot_controller.rb:19:in `callback'
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:32:12 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"8dadb42969c549e29c8dd1820dbd3b1a", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897531950, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799905938301", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"8dadb42969c549e29c8dd1820dbd3b1a", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897531950, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799905938301", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 43ms (Views: 0.4ms | ActiveRecord: 2.1ms | Allocations: 1900)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:32:27 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"ea7a052db7384f02ac769f6e3531dfb3", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897546611, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799907263378", "text"=>"洗剤を買う"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"ea7a052db7384f02ac769f6e3531dfb3", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897546611, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799907263378", "text"=>"洗剤を買う"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (2.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[36mTask Create (2.1ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('洗剤を買う', '2020-10-05 11:32:27.421293', '2020-10-05 11:32:27.421293')[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[35m (7.6ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+Completed 200 OK in 95ms (Views: 0.2ms | ActiveRecord: 12.2ms | Allocations: 3573)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:32:34 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"95cb7956124f4602af1809c38a34e57b", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897553602, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799907893651", "text"=>"勉強をする"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"95cb7956124f4602af1809c38a34e57b", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897553602, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799907893651", "text"=>"勉強をする"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[36mTask Create (1.5ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('勉強をする', '2020-10-05 11:32:34.381793', '2020-10-05 11:32:34.381793')[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[35m (5.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+Completed 200 OK in 67ms (Views: 0.2ms | ActiveRecord: 8.7ms | Allocations: 3570)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:32:44 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"2238e3c8fc274df68401a2ba4247a2d3", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897564131, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799908860174", "text"=>"bんご飯を"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"2238e3c8fc274df68401a2ba4247a2d3", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897564131, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799908860174", "text"=>"bんご飯を"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[36mTask Create (2.1ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('bんご飯を', '2020-10-05 11:32:44.927129', '2020-10-05 11:32:44.927129')[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[35m (6.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+Completed 200 OK in 74ms (Views: 0.2ms | ActiveRecord: 10.6ms | Allocations: 3570)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:32:49 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"efbbc7bbd10e4ac4a70340303f28d5cd", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897568528, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799909247605", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"efbbc7bbd10e4ac4a70340303f28d5cd", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897568528, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799909247605", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (4.0ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 74ms (Views: 0.2ms | ActiveRecord: 4.0ms | Allocations: 1941)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:32:53 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"89748a9756fe465b9f66bd7a8ed42fee", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897572878, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799909651792", "text"=>"削除3"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"89748a9756fe465b9f66bd7a8ed42fee", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897572878, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799909651792", "text"=>"削除3"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (2.6ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 23[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 74ms (Views: 0.3ms | ActiveRecord: 13.5ms | Allocations: 4026)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:33:04 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"d73ae090dd4947ef97f9ee0f3401db2d", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897583273, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799910591376", "text"=>"筋トレをする"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"d73ae090dd4947ef97f9ee0f3401db2d", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897583273, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799910591376", "text"=>"筋トレをする"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[36mTask Create (2.2ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('筋トレをする', '2020-10-05 11:33:04.081970', '2020-10-05 11:33:04.081970')[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[35m (6.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+Completed 200 OK in 73ms (Views: 0.2ms | ActiveRecord: 10.9ms | Allocations: 3567)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:33:08 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"935fdae5aa3a4bcfb8869f5ea492cfcf", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897588082, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799911034849", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"935fdae5aa3a4bcfb8869f5ea492cfcf", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897588082, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799911034849", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 72ms (Views: 0.2ms | ActiveRecord: 2.9ms | Allocations: 1940)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:33:42 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"5b3fc96a2de546acae3aee780884700a", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897621381, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799914068815", "text"=>"水を飲む"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"5b3fc96a2de546acae3aee780884700a", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897621381, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799914068815", "text"=>"水を飲む"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[36mTask Create (3.0ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('水を飲む', '2020-10-05 11:33:42.211047', '2020-10-05 11:33:42.211047')[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[35m (8.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+Completed 200 OK in 89ms (Views: 0.2ms | ActiveRecord: 12.9ms | Allocations: 3569)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:33:46 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"0cc654464a19412a98d3e3dcc3745643", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897626178, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799914483974", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"0cc654464a19412a98d3e3dcc3745643", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897626178, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799914483974", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 58ms (Views: 0.2ms | ActiveRecord: 2.1ms | Allocations: 1955)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:33:57 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"94948186c1d4493a836817b536218e91", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897637136, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799915479133", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"94948186c1d4493a836817b536218e91", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897637136, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799915479133", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (3.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (1.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (1.9ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 21[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (6.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 79ms (Views: 0.3ms | ActiveRecord: 13.5ms | Allocations: 4039)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:34:05 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"71492899a4e748da9cd577aef5b79a6b", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897644448, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799916130878", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"71492899a4e748da9cd577aef5b79a6b", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897644448, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799916130878", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (3.9ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 90ms (Views: 0.2ms | ActiveRecord: 3.9ms | Allocations: 1940)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:35:01 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"853e984e99f446129822463dc4f1fa05", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897701178, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799921217909", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"853e984e99f446129822463dc4f1fa05", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897701178, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799921217909", "text"=>"削除1"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (10.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (5.8ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 22[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (7.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 148ms (Views: 0.2ms | ActiveRecord: 25.6ms | Allocations: 4027)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:35:04 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"01939706e0bc4cb1991972152eb1d03a", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897703845, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799921465826", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"01939706e0bc4cb1991972152eb1d03a", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897703845, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799921465826", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.3ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 72ms (Views: 0.3ms | ActiveRecord: 2.3ms | Allocations: 1926)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:35:13 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"8e46d6c3016e4e15a1699badbe62ef34", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897712379, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799922243969", "text"=>"勉強をする"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"8e46d6c3016e4e15a1699badbe62ef34", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897712379, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799922243969", "text"=>"勉強をする"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[35m (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[36mTask Create (1.8ms)[0m  [1m[32mINSERT INTO `tasks` (`body`, `created_at`, `updated_at`) VALUES ('勉強をする', '2020-10-05 11:35:13.203128', '2020-10-05 11:35:13.203128')[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+  [1m[35m (5.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:41:in `block in callback'
+Completed 200 OK in 79ms (Views: 0.4ms | ActiveRecord: 9.3ms | Allocations: 3567)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:35:18 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"1a7a02621bac4c609ef39a6ba77f2675", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897717688, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799922713799", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"1a7a02621bac4c609ef39a6ba77f2675", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897717688, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799922713799", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (1.6ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 68ms (Views: 0.3ms | ActiveRecord: 1.6ms | Allocations: 1940)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:35:29 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"890607f4bcb14d979729c7da6aaae719", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897728690, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799923703792", "text"=>"削除2"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"890607f4bcb14d979729c7da6aaae719", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897728690, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799923703792", "text"=>"削除2"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.8ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:36:in `block in callback'
+  [1m[35m (2.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[36mTask Destroy (2.4ms)[0m  [1m[31mDELETE FROM `tasks` WHERE `tasks`.`id` = 25[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+  [1m[35m (10.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/line_bot_controller.rb:38:in `block in callback'
+Completed 200 OK in 77ms (Views: 0.2ms | ActiveRecord: 17.4ms | Allocations: 4028)
+
+
+Started POST "/callback" for 147.92.150.194 at 2020-10-05 20:35:34 +0900
+Cannot render console from 147.92.150.194! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by LineBotController#callback as */*
+  Parameters: {"events"=>[{"type"=>"message", "replyToken"=>"c0e26457b9a24b5a9d4e8af619f3d030", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897733541, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799924153759", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c", "line_bot"=>{"events"=>[{"type"=>"message", "replyToken"=>"c0e26457b9a24b5a9d4e8af619f3d030", "source"=>{"userId"=>"U0dd39ba82b76685d06bf15e05338af7c", "type"=>"user"}, "timestamp"=>1601897733541, "mode"=>"active", "message"=>{"type"=>"text", "id"=>"12799924153759", "text"=>"一覧"}}], "destination"=>"U234ecd25c1daed4349d0cfafb125743c"}}
+Can't verify CSRF token authenticity.
+  [1m[36mTask Load (2.1ms)[0m  [1m[34mSELECT `tasks`.* FROM `tasks`[0m
+  ↳ app/controllers/line_bot_controller.rb:31:in `map'
+Completed 200 OK in 65ms (Views: 0.3ms | ActiveRecord: 2.1ms | Allocations: 1926)
+
+
